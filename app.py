@@ -39,5 +39,5 @@ def ceaser_cipher_decrypt():
             return render_template("./decryptedList.html", decrypted_text = output_answers)
         
 
-if(__name__ == "__main__"):
-    app.run(debug=True)
+# if(__name__ == "__main__"):
+#     app.run(debug=True)
