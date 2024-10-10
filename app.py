@@ -4,7 +4,7 @@ import json
 app  = Flask(__name__)
 
 app.static_folder = 'static'
-@app.route("/decrypt", methods=["GET"])
+@app.route("/", methods=["GET"])
 
 def ceaser_cipher_decrypt():
     if request.method == "GET":
